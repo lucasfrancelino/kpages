@@ -1,12 +1,13 @@
 require "base64"
 
-Before('@adm') do
+Before('@usr') do
   @login = LoginPage.new
+  @produtos = ProdutosPage.new
 
-  @username = 'tr301278'
-  @password = 'tr301278'
+  @username = ''
+  @password = ''
   @login.load
-  @login.logar(@username, @password)
+  @login.logar
   sleep 3
 end
 

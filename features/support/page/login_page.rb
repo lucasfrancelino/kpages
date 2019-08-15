@@ -5,18 +5,16 @@ class LoginPage < SitePrism::Page
     element :username_input, "[placeholder='Username']"
     element :password_input, "[placeholder='Password']"
     
-    element :log_in_button, '.button'
+    element :log_in_button, 'button'
     
     element :alert, '.el-form-item__error'
     
-    def logar(username, password)
-      username_input.set username
-      password_input.set password
+    def logar
       log_in_button.click
     end
   
     def sair
       find('.right-menu').click
-      click_button('Log Out')
+      find('span', text: 'Log Out').click
     end
 end
