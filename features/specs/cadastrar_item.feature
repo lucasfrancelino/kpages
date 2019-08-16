@@ -10,7 +10,6 @@ Funcionalidade: Cadastrar novo produto
         Dado que eu acesso a listagem de produtos
         Quando solicito a inclusão
     
-    
     Cenário: Incluir produto
         Quando eu preencho os campos liberados para incluir um produto
             | Descricao    | Moto G7  |
@@ -28,7 +27,11 @@ Funcionalidade: Cadastrar novo produto
         E solicito incluir
         Então visualizo a mensagem "O campo descrição é obrigatório"
 
-        #erro ao incluir produto sem fabricante (zera a listagem ja cadastrada)
+        # erro ao incluir produto sem fabricante (zera a listagem ja cadastrada)
+        # falta de um filtro
+        # exclusão nao faz uma validação de permissão
+        # msg em ingles quando todos os itens sao excluidos, poderia ser alguma msg informando que não tem nenhum registro
+        # quando se inclui um novo item, ele nao lista com ID
     
     Cenário: Campos obrigatórios
         Quando eu preencho os campos liberados para incluir um produto

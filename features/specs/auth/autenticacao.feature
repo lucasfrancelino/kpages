@@ -10,5 +10,5 @@ Funcionalidade: Login
 
     @logout
     Cenário: Login - Administrador de sistema
-        Quando faço login com "" e ""
+        Quando faço login com "admin" e "111111"
         Entao sou autenticado com sucesso
