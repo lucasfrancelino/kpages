@@ -25,5 +25,11 @@ class ProdutosPage < SitePrism::Page
       preco_input.set tabela['Preco']
     end
 
+    def sem_fabricante(tabela)
+      descricao_input.set tabela['Descricao']
+      quantidade_input.set tabela['Quantidade']
+      preco_input.set tabela['Preco']
+    end
+
 
 end

@@ -26,13 +26,6 @@ Funcionalidade: Cadastrar novo produto
             | Preco        | 619.85   |
         E solicito incluir
         Então visualizo a mensagem "O campo descrição é obrigatório"
-
-        # erro ao incluir produto sem fabricante (zera a listagem ja cadastrada)
-        # falta de um filtro
-        # exclusão nao faz uma validação de permissão
-        # msg em ingles quando todos os itens sao excluidos, poderia ser alguma msg informando que não tem nenhum registro
-        # quando se inclui um novo item, ele nao lista com ID
-        # validação do tamanho dos campos
     
     Cenário: Campos obrigatórios
         Quando eu preencho os campos liberados para incluir um produto
