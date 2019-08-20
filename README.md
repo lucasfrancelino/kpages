@@ -40,4 +40,8 @@ clique em aceitar e Next>
 3. Em seguida clique em Install, sem modificar nada.
 4. Novamente clique em Next>, irá começar a fazer a instalação.
 5. Após instalado, desmarque a checkbox e clique em Finish.
-6. 
+![image](https://user-images.githubusercontent.com/30832888/63369571-9a9b8d00-c356-11e9-926a-6669f94692cb.png)
+6. Abra o terminal ou o CMDER e verifique com o seguinte comando se o Ruby foi instalado.
+```sh
+ruby --version
+```
