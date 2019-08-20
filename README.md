@@ -48,8 +48,15 @@ ruby --version
 a saida deve ser algo como:
 ![image](https://user-images.githubusercontent.com/30832888/63369885-53fa6280-c357-11e9-8e94-56ff463f14aa.png)
 
-No CMDER ainda rode o comando:
+7. No CMDER ainda rode o comando:
 ```sh
 ridk install
 ```
 Deve ser apresentado
+![image](https://user-images.githubusercontent.com/30832888/63370083-cb2ff680-c357-11e9-949c-ffd4eda8afbe.png)
+
+8. Nesse momento tecle 3 e de enter, para escolher o pacote **_MSYS2 and MINGW development tollchain_**
+9. Aguarde enquanto tudo seja instalado e tecle ENTER.
+
+10. 
+
