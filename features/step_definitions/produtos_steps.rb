@@ -18,7 +18,7 @@ Quando("solicito incluir") do
 end
 
 Então("visualizo a mensagem {string}") do |msg_alerta|
-    expect(page).to have_content msg_alerta
+  expect(page).to have_content msg_alerta
 end
 
 #Listar

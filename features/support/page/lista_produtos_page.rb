@@ -37,4 +37,23 @@ class ProdutosPage < SitePrism::Page
       preco_input.set tabela['Preco'] = Faker::Lorem.characters(number: 50).to_s
     end
 
+    def adicionar_muitos(tabela)
+      for cadastro in (0...5)
+        cadastrar_icon.click
+        descricao_input.set tabela['Descricao']
+        fabricante_combo.click
+        find('.el-select-dropdown__item', :text => tabela['Fabricante']).select_option
+        quantidade_input.set tabela['Quantidade']
+        preco_input.set tabela['Preco']
+        find('span', text: 'Cadastrar').click
+        sleep 2
+      end
+    end
+
+    def filtrar(tabela)
+      descricao_input.set tabela['Descricao']
+      quantidade_input.set tabela['Quantidade']
+      preco_input.set tabela['Preco']
+    end
+
 end

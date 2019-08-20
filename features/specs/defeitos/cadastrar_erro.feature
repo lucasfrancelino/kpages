@@ -17,13 +17,3 @@ Funcionalidade: Cadastrar novo produto sem fabricante
             | Preco        | 619.85   |
         Entao solicito incluir
         E vejo a tela de listagem zerada
-    
-    Cenário: Incluir produto
-        Quando eu preencho os campos liberados para incluir um produto
-            | Descricao    | Moto G7  |
-            | Fabricante   | Motorola |
-            | Quantidade   | 286      |
-            | Preco        | 619.85   |
-        E solicito incluir
-        E vejo a tela de listagem zerada
-        
