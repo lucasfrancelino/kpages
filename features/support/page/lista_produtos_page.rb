@@ -31,5 +31,10 @@ class ProdutosPage < SitePrism::Page
       preco_input.set tabela['Preco']
     end
 
+    def numero_caracteres(tabela)
+      descricao_input.set tabela['Descricao'] = Faker::Lorem.characters(number: 500).to_s
+      quantidade_input.set tabela['Quantidade']
+      preco_input.set tabela['Preco'] = Faker::Lorem.characters(number: 50).to_s
+    end
 
 end

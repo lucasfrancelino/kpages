@@ -12,7 +12,8 @@ Funcionalidade: Validado tamnho de campo
 
     Cenario: validando tamanho dos campos 
         E preencho os campos liberados
-            | Descricao    | Moto usar faker lorem    |
+            | Descricao    | Moto     |
             | Quantidade   | 286      |
             | Preco        | 619.85   |
         Entao solicito incluir
+        E vizualizo a listagem
