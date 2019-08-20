@@ -8,3 +8,9 @@ Entao("vejo a tela de listagem zerada") do
   sleep 5
   expect(page).to have_content 'Lista de Produtos'
 end
+
+#Validando tamnho de campo
+Quando("preencho os campos liberados") do |table|
+  # table is a Cucumber::MultilineArgument::DataTable
+  pending # Write code here that turns the phrase above into concrete actions
+end
