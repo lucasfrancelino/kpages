@@ -31,4 +31,7 @@ Entre no site [cmder.net](https://cmder.net/), baixe a versão Full do CMDER.
 ### Baixando o Ruby para Windows
 
 Entre no site [rubyinstaller.org](https://rubyinstaller.org/downloads/) e baixe a versão mais estável, o próprio site já indica qual a melhor versão. 
+![image](https://user-images.githubusercontent.com/30832888/63367665-bd2ba700-c352-11e9-8d31-b5f4262f7a8b.png)
 
+1. Após ter feito o download é muito importante que não tenha nenhum terminal aberto.
+2. De um double click no arquivo baixado irá abrir a seguinte tela:
