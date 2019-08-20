@@ -34,4 +34,10 @@ Entre no site [rubyinstaller.org](https://rubyinstaller.org/downloads/) e baixe 
 ![image](https://user-images.githubusercontent.com/30832888/63367665-bd2ba700-c352-11e9-8d31-b5f4262f7a8b.png)
 
 1. Após ter feito o download é muito importante que não tenha nenhum terminal aberto.
-2. De um double click no arquivo baixado, irá abrir a seguinte tela:
+2. De um double clique no arquivo baixado, irá abrir a seguinte tela:
+![image](https://user-images.githubusercontent.com/30832888/63369102-a63a8400-c355-11e9-9a7e-ed345ebbdf4c.png)
+clique em aceitar e Next>
+3. Em seguida clique em Install, sem modificar nada.
+4. Novamente clique em Next>, irá começar a fazer a instalação.
+5. Após instalado, desmarque a checkbox e clique em Finish.
+6. 
