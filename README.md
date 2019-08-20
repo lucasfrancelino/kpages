@@ -28,3 +28,7 @@ Entre no site [cmder.net](https://cmder.net/), baixe a versão Full do CMDER.
 4. Ao abrir a pasta cmder clique em Cmder, irá abrir um terminal, é nesse terminal que iremos dar todos os comandos para executar nossos tester de regressão.
 ![image](https://user-images.githubusercontent.com/30832888/63367046-5ce83580-c351-11e9-9770-bd009780ab13.png)
 
+### Baixando o Ruby para Windows
+
+Entre no site [rubyinstaller.org](https://rubyinstaller.org/downloads/) e baixe a versão mais estável, o próprio site já indica qual a melhor versão. 
+
