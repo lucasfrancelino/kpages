@@ -41,7 +41,15 @@ clique em aceitar e Next>
 4. Novamente clique em Next>, irá começar a fazer a instalação.
 5. Após instalado, desmarque a checkbox e clique em Finish.
 ![image](https://user-images.githubusercontent.com/30832888/63369571-9a9b8d00-c356-11e9-926a-6669f94692cb.png)
-6. Abra o terminal ou o CMDER e verifique com o seguinte comando se o Ruby foi instalado.
+6. Abra o CMDER e verifique com o seguinte comando se o Ruby foi instalado.
 ```sh
 ruby --version
 ```
+a saida deve ser algo como:
+![image](https://user-images.githubusercontent.com/30832888/63369885-53fa6280-c357-11e9-8e94-56ff463f14aa.png)
+
+No CMDER ainda rode o comando:
+```sh
+ridk install
+```
+Deve ser apresentado
