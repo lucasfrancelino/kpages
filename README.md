@@ -1,4 +1,4 @@
-## Automação com Ruby,Cucumber e Selenium WebDriver
+## Automação com Ruby, Cucumber e Selenium WebDriver
 
 > Projeto desenvolvido para testar algumas funcionalidades básicas de uma aplicação web, explorando o caminho feliz e 
 apresentando suas falhas.
