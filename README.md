@@ -22,7 +22,7 @@ Entre no site [cmder.net](https://cmder.net/), baixe a versão Full do CMDER.
 
 1. Descompacte a pasta baixada;
 2. Crie uma pasta chamada tools no Disco Local C:
-![image](https://user-images.githubusercontent.com/30832888/63367037-56f25480-c351-11e9-8f59-bc4679581da8.png)
+![image](https://user-images.githubusercontent.com/30832888/63368382-27911700-c354-11e9-87a6-d7afa99cda06.png)
 
 3. Mova o arquivo baixado e descompactado para dentro da pasta tools;
 4. Ao abrir a pasta cmder clique em Cmder, irá abrir um terminal, é nesse terminal que iremos dar todos os comandos para executar nossos tester de regressão.
