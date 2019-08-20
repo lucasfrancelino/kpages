@@ -57,6 +57,16 @@ Deve ser apresentado
 
 8. Nesse momento tecle 3 e de enter, para escolher o pacote **_MSYS2 and MINGW development tollchain_**
 9. Aguarde enquanto tudo seja instalado e tecle ENTER.
+![image](https://user-images.githubusercontent.com/30832888/63370563-e3544580-c358-11e9-81ff-0da7a67090bb.png)
 
-10. 
+10. Rode o comando:
+```sh
+gem install bundler
+```
+Ele irá instalar a gem Bundler do ruby.
+Feito isso, rode:
+```sh
+ bundler --version
+```
+É apresentado então a versão do Bundler.
 
