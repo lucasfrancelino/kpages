@@ -1,11 +1,11 @@
 ## Automação com Ruby, Cucumber e Selenium WebDriver
 
 > Projeto desenvolvido para testar algumas funcionalidades básicas de uma aplicação web, explorando o caminho feliz e 
-apresentando suas falhas.
+apresentando suas falhas. 
 
 ### Instalação do ambiente
 
-Utilizo e vou mostar o download do Visual Studio Code, mas a IDE poderá ser qualqer uma que preferir.
+Utilizo e vou mostrar o download do Visual Studio Code, mas a IDE poderá ser qualquer uma que preferir.
 
 Entre no site [visualstudio.com](https://code.visualstudio.com/) e faça o download da versão para seu Sistema Operacional, selecione
 sempre a versão **_Stable_** pois ela é a versão estável do editor de texto.
@@ -25,7 +25,7 @@ Entre no site [cmder.net](https://cmder.net/), baixe a versão Full do CMDER.
 ![image](https://user-images.githubusercontent.com/30832888/63368382-27911700-c354-11e9-87a6-d7afa99cda06.png)
 
 3. Mova o arquivo baixado e descompactado para dentro da pasta tools;
-4. Ao abrir a pasta cmder clique em Cmder, irá abrir um terminal, é nesse terminal que iremos dar todos os comandos para executar nossos tester de regressão.
+4. Ao abrir a pasta cmder clique em Cmder, irá abrir um terminal, é nesse terminal que iremos dar todos os comandos para executar nossos testes de regressão.
 ![image](https://user-images.githubusercontent.com/30832888/63367046-5ce83580-c351-11e9-9770-bd009780ab13.png)
 
 ### Baixando o Ruby para Windows
@@ -48,14 +48,14 @@ ruby --version
 a saida deve ser algo como:
 ![image](https://user-images.githubusercontent.com/30832888/63369885-53fa6280-c357-11e9-8e94-56ff463f14aa.png)
 
-7. No CMDER ainda rode o comando:
+7. No CMDER ainda, rode o comando:
 ```sh
 ridk install
 ```
 Deve ser apresentado
 ![image](https://user-images.githubusercontent.com/30832888/63370083-cb2ff680-c357-11e9-949c-ffd4eda8afbe.png)
 
-8. Nesse momento tecle 3 e de enter, para escolher o pacote **_MSYS2 and MINGW development tollchain_**
+8. Nesse momento tecle 3 e dê enter, para escolher o pacote **_MSYS2 and MINGW development tollchain_**
 9. Aguarde enquanto tudo seja instalado e tecle ENTER.
 ![image](https://user-images.githubusercontent.com/30832888/63370563-e3544580-c358-11e9-81ff-0da7a67090bb.png)
 
@@ -194,6 +194,17 @@ Acesse o site [geckodriver.com](https://github.com/mozilla/geckodriver/releases)
 Será feito o download, logo após ter baixado descompacte e copie o arquivo **geckodriver.exe**, vá até a pasta bin dentro do Ruby e cole lá novamente, igualmente feito com o Chromedriver.
 ![image](https://user-images.githubusercontent.com/30832888/63396813-c7739280-c39e-11e9-8525-de895ef67663.png)
 
+## Agora tudo pronto
+Crie uma pasta onde possa clonar o projeto no disco local C: (Esse passo é extremamente importante se estiver utilizando Windows), no Linux não precisa se preocupar.
 
-
+Faça o clone do projeto 
+```sh
+git clone https://github.com/lucasfrancelino/kpages.git
+```
+Em um terminal ou no CMDER rode os comandos:
+```sh
+bundler install
+cucumber
+```
+O projeto tem toda automação de uma página web com log (relatório) de execução e seus devidos prints, fazendo com que isso dê mais valor nos entregaveis de teste e facilite a tomada de ações por gestores nos projetos reais. 
 
