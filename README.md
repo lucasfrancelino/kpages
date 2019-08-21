@@ -171,7 +171,7 @@ Instalando o Bundler
 ```sh
 gem install bundler
 ```
-Configuring Git
+Configurando Git
 ```sh
 git config --global color.ui true
 git config --global user.name "SEU NOME"
