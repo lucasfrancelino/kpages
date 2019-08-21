@@ -73,6 +73,7 @@ Feito isso, rode:
 ### Ubuntu, Mint ou qualquer derivado do Debian Linux
 
 Libs de DevKit
+```sh
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
@@ -80,7 +81,9 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update
 
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs yarn
+```
 Se você optou ZSH (Instalou o Oh My ZSH)
+```sh
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
@@ -94,7 +97,10 @@ rbenv install 2.6.1
 rbenv global 2.6.1
 
 source ~/.zshrc
+```
+
 Se você optou pelo Bash (NÃO instalou o Oh My ZSH)
+```sh
 sudo apt-get install git
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -111,13 +117,16 @@ rbenv install 2.6.1
 rbenv global 2.6.1
 
 source ~/.bashrc
-
+```
 
 Fedora, CentOS ou derivados do Redhat
-
+```sh
 Libs de DevKit
 sudo dnf install git-core zlib zlib-devel gcc-c++ patch readline readline-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison curl sqlite-devel
+```
+
 Se você optou ZSH (Instalou o Oh My ZSH)
+```sh
 cd
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
@@ -134,7 +143,10 @@ rbenv install 2.6.1
 rbenv global 2.6.1
 
 source ~/.zshrc
+```
+
 Se você optou pelo Bash (NÃO instalou o Oh My ZSH)
+```sh
 cd
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -147,18 +159,22 @@ exec $SHELL
 
 rbenv install 2.6.1
 rbenv global 2.6.1
-
+```
 
 Para verificar se deu tudo certo, digite o comando:
-
+```sh
 $ ruby -v
-Se deu certo, você deve versão instalada \o/
+```
+Se deu certo, você deve ver a versão instalada
 
 Instalando o Bundler
+```sh
 gem install bundler
+```
 Configuring Git
+```sh
 git config --global color.ui true
 git config --global user.name "SEU NOME"
 git config --global user.email "seu@email.com"
 ssh-keygen -t rsa -b 4096 -C "seu@email.com"
-
+```
