@@ -178,3 +178,22 @@ git config --global user.name "SEU NOME"
 git config --global user.email "seu@email.com"
 ssh-keygen -t rsa -b 4096 -C "seu@email.com"
 ```
+### Intalação dos drivers no Windowns
+
+#### Intalando o Chromedriver
+Acesse o site [google.com/chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) e escolha a versão do seu navegador, eu estou usando a 76.0.3xxx
+![image](https://user-images.githubusercontent.com/30832888/63396141-76fb3580-c39c-11e9-9c1e-39b9b9fb6aaa.png)
+
+Será feito o download, logo após ter baixado descompacte e copie o arquivo **chromedriver.exe**, vá até a pasta bin dentro do Ruby e cole lá.
+![image](https://user-images.githubusercontent.com/30832888/63396410-5aabc880-c39d-11e9-92f8-220a9f7636a4.png)
+
+#### Intalando o Geckodriver
+Acesse o site [geckodriver.com](https://github.com/mozilla/geckodriver/releases) escolha a versão para o seu sistema operacional
+![image](https://user-images.githubusercontent.com/30832888/63396638-271d6e00-c39e-11e9-8f91-87b41d54d615.png)
+
+Será feito o download, logo após ter baixado descompacte e copie o arquivo **geckodriver.exe**, vá até a pasta bin dentro do Ruby e cole lá novamente, igualmente feito com o Chromedriver.
+![image](https://user-images.githubusercontent.com/30832888/63396813-c7739280-c39e-11e9-8525-de895ef67663.png)
+
+
+
+
